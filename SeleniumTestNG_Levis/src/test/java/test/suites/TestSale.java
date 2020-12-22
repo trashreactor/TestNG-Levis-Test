@@ -14,7 +14,7 @@ public class TestSale {
 
     @BeforeSuite
     public void setup(){
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\troham\\Programs\\Programacion\\Git\\geckodriver.exe"); 
+        System.setProperty("webdriver.gecko.driver","<Path to gecko driver>"); 
         driver = new FirefoxDriver();
         driver.get("https://www.levi.com.ar/");
         //Maximize window		
